@@ -33,7 +33,7 @@ Add the laravel-db2 Service Provider to your config in ``app/config/app.php``:
 
 ```php
 'providers' => [
-    'JWS\Iseries\IseriesServiceProvider'
+    JWS\Iseries\IseriesServiceProvider::class,
 ],
 ```
 
