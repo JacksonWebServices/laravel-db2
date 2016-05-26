@@ -35,7 +35,7 @@ class IseriesServiceProvider extends ServiceProvider {
     {
 
         // get the configs
-        $conns = is_array(Config::get('laravel-db2::database.connections')) ? Config::get('laravel-db2::database.connections') : [];
+        $conns = is_array(Config::get('iseries::database.connections')) ? Config::get('iseries::database.connections') : [];
 
         // Add my database configurations to the default set of configurations
         $this->app['config']['database.connections'] = array_merge($conns, $this->app['config']['database.connections']);
@@ -64,7 +64,7 @@ class IseriesServiceProvider extends ServiceProvider {
                         break;
                 }
                 $db2Connection = $connector->connect($config);
-                return new DB2Connection($db2Connection, $config["database"], $config["prefix"], $config);
+                return new IseriesConnection($db2Connection, $config["database"], $config["prefix"], $config);
             });
 
         }
