@@ -1,7 +1,7 @@
 # laravel-iseries
 
 
-It provides DB2 Connection by extending the Illuminate Database component of the laravel framework.
+It provides DB2 Connection by extending the Illuminate Database component of the laravel framework. Tested on laravel 5.2
 
 ---
 
