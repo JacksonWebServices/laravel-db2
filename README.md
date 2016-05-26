@@ -10,7 +10,6 @@ A customized version of https://github.com/cooperl22/laravel-db2
 - [Installation](#installation)
 - [Registering the Package](#registering-the-package)
 - [Configuration](#configuration)
-- [Usage](#usage)
 
 ## Installation
 
@@ -42,7 +41,7 @@ Add the laravel-db2 Service Provider to your config in ``app/config/app.php``:
 
 There are two ways to configure laravel-db2. You can choose the most convenient way for you. You can put your DB2 credentials into ``app/config/database.php`` (option 1) file or use package config file which you can be generated through command line by artisan (option 2).
 
-#### Option 1: Configure DB2 using ``app/config/database.php`` file 
+#### Configure DB2 using ``app/config/database.php`` file 
 
 Simply add this code at the end of your ``app/config/database.php`` file:
 
@@ -128,22 +127,4 @@ Simply add this code at the end of your ``app/config/database.php`` file:
     ],
 
 ```
-driver setting is either 'odbc' for ODBC connection or 'ibm' for pdo_ibm connection
-Then if driver is 'odbc', database must be set to ODBC connection name.
-if driver is 'ibm', database must be set to IBMi database name (WRKRDBDIRE).
 
-#### Option 2: Configure DB2 using package config file
-
-Run on the command line from the root of your project:
-
-```
-$ php artisan config:publish cooperl/laravel-db2
-```
-
-Set your laravel-db2 credentials in ``app/config/packages/cooperl/laravel-db2/config.php``
-the same way as above
-
-
-## Usage
-
-Consult the [Laravel framework documentation](http://laravel.com/docs).
