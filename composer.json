@@ -1,6 +1,6 @@
 {
-    "name": "jacksonwebservices/laravel-db2",
-    "description": "Laravel-odbc-db2 connection",
+    "name": "jacksonwebservices/laravel-iseries",
+    "description": "Laravel-odbc-iseris connection",
     "keywords": ["laravel", "DB2", "Database", "PDO", "ODBC"],
     "license": "MIT",
     "authors": [
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "JSW\\DB2\\": "src/"
+            "JSW\\Iseries\\": "src/"
         }
     }
 }
