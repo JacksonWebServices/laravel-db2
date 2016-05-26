@@ -1,14 +1,14 @@
 <?php
-namespace Cooperl\Database\DB2;
+namespace JWS\Iseries;
 
-use Cooperl\Database\DB2\Connectors\ODBCConnector;
-use Cooperl\Database\DB2\Connectors\IBMConnector;
+use JWS\Iseries\Connectors\ODBCConnector;
+use JWS\Iseries\Connectors\IBMConnector;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\AliasLoader;
 use Config;
 
-class DB2ServiceProvider extends ServiceProvider {
+class IseriesServiceProvider extends ServiceProvider {
 
     /**
      * Indicates if loading of the provider is deferred.
