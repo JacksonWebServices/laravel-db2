@@ -10,6 +10,7 @@ A customized version of https://github.com/cooperl22/laravel-db2
 - [Installation](#installation)
 - [Registering the Package](#registering-the-package)
 - [Configuration](#configuration)
+- [Env](#env)
 
 ## Installation
 
