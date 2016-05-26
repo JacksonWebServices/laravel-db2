@@ -1,16 +1,16 @@
 <?php
-namespace Cooperl\Database\DB2;
+namespace JWS\Iseries;
 
 use PDO;
 
 use Illuminate\Database\Connection;
 
-use Cooperl\Database\DB2\Schema\Builder;
-use Cooperl\Database\DB2\Query\Processors\DB2Processor;
-use Cooperl\Database\DB2\Query\Grammars\DB2Grammar as QueryGrammar;
-use Cooperl\Database\DB2\Schema\Grammars\DB2Grammar as SchemaGrammar;
+use JWS\Iseries\Schema\Builder;
+use JWS\Iseries\Query\Processors\DB2Processor;
+use JWS\Iseries\Query\Grammars\DB2Grammar as QueryGrammar;
+use JWS\Iseries\Schema\Grammars\DB2Grammar as SchemaGrammar;
 
-class DB2Connection extends Connection
+class IseriesConnection extends Connection
 {
 
     /**
