@@ -16,7 +16,7 @@ Add laravel-db2 to your composer.json file:
 
 ```
 "require": {
-    "cooperl/laravel-db2": "~2.0"
+    "jacksonwebservices/laravel-iseries": "dev-master"
 }
 ```
 
@@ -32,7 +32,7 @@ Add the laravel-db2 Service Provider to your config in ``app/config/app.php``:
 
 ```php
 'providers' => [
-    'Cooperl\Database\DB2\DB2ServiceProvider'
+    'JWS\Iseries\IseriesServiceProvider'
 ],
 ```
 
