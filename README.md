@@ -1,11 +1,6 @@
-# laravel-db2
+# laravel-iseries
 
-[![Latest Stable Version](https://poser.pugx.org/cooperl/laravel-db2/v/stable)](https://packagist.org/packages/cooperl/laravel-db2)
-[![Total Downloads](https://poser.pugx.org/cooperl/laravel-db2/downloads)](https://packagist.org/packages/cooperl/laravel-db2)
-[![Latest Unstable Version](https://poser.pugx.org/cooperl/laravel-db2/v/unstable)](https://packagist.org/packages/cooperl/laravel-db2)
-[![License](https://poser.pugx.org/cooperl/laravel-db2/license)](https://packagist.org/packages/cooperl/laravel-db2)
 
-laravel-db2 is a simple DB2 service provider for Laravel.
 It provides DB2 Connection by extending the Illuminate Database component of the laravel framework.
 
 ---
