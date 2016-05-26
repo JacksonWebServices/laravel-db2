@@ -1,5 +1,5 @@
 <?php
-namespace Cooperl\Database\DB2\Schema;
+namespace JWS\Iseries\Schema;
 
 use Closure;
 use Illuminate\Database\Schema\Blueprint;

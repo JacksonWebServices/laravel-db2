@@ -1,5 +1,5 @@
 <?php
-namespace Cooperl\Database\DB2\Connectors;
+namespace JWS\Iseries\Connectors;
 
 use Illuminate\Database\Connectors\Connector;
 use Illuminate\Database\Connectors\ConnectorInterface;

@@ -1,5 +1,5 @@
 <?php
-namespace Cooperl\Database\DB2\Query\Grammars;
+namespace JWS\Iseries\Query\Grammars;
 
 use Illuminate\Database\Query\Grammars\Grammar;
 use Illuminate\Database\Query\Builder;

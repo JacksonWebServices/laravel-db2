@@ -1,10 +1,9 @@
 <?php
+
 namespace JWS\Iseries;
 
 use PDO;
-
 use Illuminate\Database\Connection;
-
 use JWS\Iseries\Schema\Builder;
 use JWS\Iseries\Query\Processors\DB2Processor;
 use JWS\Iseries\Query\Grammars\DB2Grammar as QueryGrammar;

@@ -1,5 +1,5 @@
 <?php
-namespace Cooperl\Database\DB2\Schema\Grammars;
+namespace JWS\Iseries\Schema\Grammars;
 
 use Illuminate\Support\Fluent;
 use Illuminate\Database\Connection;

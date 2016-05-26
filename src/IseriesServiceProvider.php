@@ -1,9 +1,9 @@
 <?php
+
 namespace JWS\Iseries;
 
 use JWS\Iseries\Connectors\ODBCConnector;
 use JWS\Iseries\Connectors\IBMConnector;
-
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\AliasLoader;
 use Config;
