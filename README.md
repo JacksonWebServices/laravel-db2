@@ -17,7 +17,7 @@ Add laravel-db2 to your composer.json file:
 
 ```
 "require": {
-    "jacksonwebservices/laravel-iseries": "dev-master"
+    "jacksonwebservices/laravel-iseries": "3.0.*"
 }
 ```
 
