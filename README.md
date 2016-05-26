@@ -5,6 +5,8 @@ It provides DB2 Connection by extending the Illuminate Database component of the
 
 ---
 
+A customized version of https://github.com/cooperl22/laravel-db2
+
 - [Installation](#installation)
 - [Registering the Package](#registering-the-package)
 - [Configuration](#configuration)
