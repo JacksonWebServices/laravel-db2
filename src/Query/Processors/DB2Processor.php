@@ -1,9 +1,9 @@
 <?php
-namespace Cooperl\Database\DB2\Query\Processors;
+namespace JWS\Iseries\Query\Processors;
 
 use Illuminate\Database\Query\Builder;
 use Illuminate\Database\Query\Processors\Processor;
-use Cooperl\Database\DB2\Query\Grammars\DB2Grammar;
+use JWS\Iseries\Query\Grammars\DB2Grammar;
 
 class DB2Processor extends Processor {
 
