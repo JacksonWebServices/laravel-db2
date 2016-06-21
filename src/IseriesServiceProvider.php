@@ -64,7 +64,7 @@ class IseriesServiceProvider extends ServiceProvider {
                         break;
                 }
                 $db2Connection = $connector->connect($config);
-                return new IseriesConnection($db2Connection, $config["database"], $config["prefix"], $config);
+                return new IseriesConnection($db2Connection, $config["database"], '', $config);
             });
 
         }
