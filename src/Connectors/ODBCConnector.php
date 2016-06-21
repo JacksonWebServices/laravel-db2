@@ -30,67 +30,24 @@ class ODBCConnector extends Connector implements ConnectorInterface
 
         $dsn = "odbc:"
              // General settings
-             . "DRIVER=$driverName;"
-             . "SYSTEM=$host;"
+             . "Driver=$driverName;"
+             . "System=$host;"
              . "UserID=$username;"
              . "Password=$password;"
              //Server settings
-             . "DATABASE=$database;"
-             . "SIGNON=$signon;"
-             . "SSL=$ssl;"
+             . "Database=$database;"
              . "CommitMode=$commitMode;"
              . "ConnectionType=$connectionType;"
              . "DefaultLibraries=$defaultLibraries;"
              . "Naming=$naming;"
-             . "UNICODESQL=$unicodeSql;"
-             // Format settings
-             . "DateFormat=$dateFormat;"
-             . "DateSeperator=$dateSeperator;"
-             . "Decimal=$decimal;"
-             . "TimeFormat=$timeFormat;"
-             . "TimeSeparator=$timeSeparator;"
-             // Performances settings
-             . "BLOCKFETCH=$blockFetch;"
-             . "BlockSizeKB=$blockSizeKB;"
              . "AllowDataCompression=$allowDataCompression;"
-             . "CONCURRENCY=$concurrency;"
-             . "LAZYCLOSE=$lazyClose;"
-             . "MaxFieldLength=$maxFieldLength;"
-             . "PREFETCH=$prefetch;"
-             . "QUERYTIMEOUT=$queryTimeout;"
-             // Modules settings
              . "DefaultPkgLibrary=$defaultPkgLibrary;"
              . "DefaultPackage=$defaultPackage;"
              . "ExtendedDynamic=$extendedDynamic;"
-             // Diagnostic settings
-             . "QAQQINILibrary=$QAQQINILibrary;"
-             . "SQDIAGCODE=$sqDiagCode;"
-             // Sort settings
-             . "LANGUAGEID=$languageId;"
-             . "SORTTABLE=$sortTable;"
-             . "SortSequence=$sortSequence;"
-             . "SORTWEIGHT=$sortWeight;"
-             // Conversion settings
              . "AllowUnsupportedChar=$allowUnsupportedChar;"
-             . "CCSID=$ccsid;"
-             . "GRAPHIC=$graphic;"
              . "ForceTranslation=$forceTranslation;"
-             // Other settings
-             . "ALLOWPROCCALLS=$allowProcCalls;"
-             . "DB2SQLSTATES=$DB2SqlStates;"
-             . "DEBUG=$debug;"
-             . "TRUEAUTOCOMMIT=$trueAutoCommit;"
-             . "CATALOGOPTIONS=$catalogOptions;"
              . "LibraryView=$libraryView;"
-             . "ODBCRemarks=$ODBCRemarks;"
-             . "SEARCHPATTERN=$searchPattern;"
-             . "TranslationDLL=$translationDLL;"
-             . "TranslationOption=$translationOption;"
-             . "MAXTRACESIZE=$maxTraceSize;"
-             . "MultipleTraceFiles=$multipleTraceFiles;"
-             . "TRACE=$trace;"
-             . "TRACEFILENAME=$traceFilename;"
-             . "ExtendedColInfo=$extendedColInfo;"
+             . "Trace=$trace;"
              ;
 
         return $dsn;
