@@ -8,12 +8,12 @@ return [
             'driver'               => 'odbc',
             'driverName'           => '{iSeries Access ODBC Driver}',
              // General settings
-            'host'                 => env('DB2_host'),
-            'username'             => env('DB2_user'),
-            'password'             => env('DB2_pw'),
+            'host'                 => env('DB2_HOST'),
+            'username'             => env('DB2_USER'),
+            'password'             => env('DB2_PASSWORD'),
             //Server settings
-            'database'             => env('DB2_ODBC_name'),
-            'schema'               => env('DB2_default_table'),
+            'database'             => env('DB2_NAME'),
+            'schema'               => env('DB2_DEFAULT_SCHEMA'),
             'commitMode'           => 2,
             'connectionType'       => 0,
             'defaultLibraries'     => 'QGPL',
