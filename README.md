@@ -47,13 +47,13 @@ Simply add this code at the end of your ``config/database.php`` file:
             'driver'               => 'odbc',
             'driverName'           => '{iSeries Access ODBC Driver}',
              // General settings
-            'host'                 => env('DB2_host'),
-            'username'             => env('DB2_user'),
-            'password'             => env('DB2_pw'),
+            'host'                 => env('DB2_HOST'),
+            'username'             => env('DB2_USER'),
+            'password'             => env('DB2_PASSWORD'),
             //Server settings
-            'database'             => env('DB2_ODBC_name'),
+            'database'             => env('DB2_NAME'),
             'prefix'               => '',
-            'schema'               => env('DB2_default_table'),
+            'schema'               => env('DB2_DEFAULT_SCHEMA'),
             'signon'               => 3,
             'ssl'                  => 0,
             'commitMode'           => 2,
